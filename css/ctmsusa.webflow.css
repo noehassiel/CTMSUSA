@@ -10,6 +10,10 @@
   grid-column-gap: 16px;
 }
 
+.noe:hover {
+  color:rgb(221, 101, 101);
+}
+
 .w-form-formradioinput--inputType-custom {
   border-top-width: 1px;
   border-bottom-width: 1px;
@@ -10206,6 +10210,13 @@ blockquote {
 @font-face {
   font-family: 'Eudoxussans';
   src: url('../fonts/EudoxusSans-Medium.woff2') format('woff2'), url('../fonts/EudoxusSans-Medium.woff') format('woff'), url('../fonts/EudoxusSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'CartographCF';
+  src: url('../fonts/CartographCF-BoldItalic.otf') format('otf'), url('../fonts/CartographCF-BoldItalic.otf') format('otf'), url('../fonts/CartographCF-BoldItalic.otf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
